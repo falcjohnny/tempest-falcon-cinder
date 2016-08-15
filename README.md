@@ -1,5 +1,5 @@
 # tempest-falcon-cinder
-Install tempest:
+## Install tempest:
 ```bash  
   yum update -y
   yum install epel-release -y
@@ -18,7 +18,7 @@ Install tempest:
   pip install .
 ```
 
-How to run tempest tests:
+## How to run tempest tests:
 ```bash
   cd tempest/
   mkdir watcher-cloud
@@ -43,7 +43,7 @@ How to run tempest tests:
   nosetests  tempest.api.volume.test_volumes_creation
   ```
 
-How to run specified type of test cases:
+## How to run specified type of test cases:
 ```bash
   pip install mock
   pip install oslotest
