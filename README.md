@@ -51,8 +51,8 @@
 ```
 Put "from nose.plugins.attrib import attr" in the script
 And then put @attr(type='falcon') in below:
-1) Set @attr only on a method
-2) @attr can be used on a class to set attributes on all its test methods at once
+* Set @attr only on a method
+* @attr can be used on a class to set attributes on all its test methods at once
 
 Run the tests with type is 'falcon'
 ```bash
