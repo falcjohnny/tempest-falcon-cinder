@@ -1,6 +1,6 @@
 # tempest-falcon-cinder
-Install tempest
-  
+Install tempest:
+```bash  
   yum update -y
   yum install epel-release -y
   yum install -y python-pip
@@ -16,7 +16,7 @@ Install tempest
 
   pip install --upgrade cffi
   pip install .
-
+```
 ------------------------
 How to run tempest tests:
 
